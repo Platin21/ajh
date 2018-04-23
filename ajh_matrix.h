@@ -1,12 +1,14 @@
 #include "ajh_types.h"
 #include <math.h>
 
+//TODO(Armin): check if all work's properly
+
 const float ajh_PI = 3.141592;
 
-intern inline float ajh_sin(f32 f) // could be replaced
+intern inline float ajh_sin(f32 f) //INFO(Armin): could be replaced
 { return sinf(f); }
 
-intern inline float ajh_cos(f32 f) // could be replaced
+intern inline float ajh_cos(f32 f) //INFO(Armin): could be replaced
 { return cosf(f); }
 
 def_union(f4,
@@ -206,7 +208,7 @@ intern ajh_f4x4 ajh_projection_with_fov_matrix(f32 fov, f32 aspect, f32 near, f3
     ajh_f4x4 res = {};
     
     f32 d2r  = ajh_PI / 180.0;
-    f32 yScl = 1.0 / tanf( d2r * fov / 2 ); // TODO(Armin): Make your own tan
+    f32 yScl = 1.0 / tanf( d2r * fov / 2 ); //INFO(Armin): could be replaced
     f32 xScl = yScl / aspect;
     f32 near_far_m = near - far;
     f32 near_far_p = near + far;

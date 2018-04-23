@@ -1,5 +1,8 @@
 #include "ajh_types.h"
 
+//TODO(Armin): Add view and input stuff!
+//TODO(Armin): Add metal stuff
+
 typedef struct ajh_xxx_window ajh_xxx_window;
 ajh_xxx_window* ajh_xxx_create_window(void);
 void ajh_xxx_destroy_window(ajh_xxx_window* window);

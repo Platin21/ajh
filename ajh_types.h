@@ -15,7 +15,7 @@ typedef i8*             ajh_chp;
 
 
 #define def_struct(name,fields) typedef struct ajh_##name { fields } ajh_##name
-#define  def_union(name,fields) typedef union  ajh_##name { fields } ajh_##name
+#define def_union(name,fields)  typedef union  ajh_##name { fields } ajh_##name
 
 #define intern static
 #define true  1
