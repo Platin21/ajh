@@ -1,7 +1,9 @@
 #  AJH Lib's #
 
 Some stuff that i currently make for C/C++ on macOS.
+
 For a simple game wich i currently plan. ( 3D'ish )
+
 Also why begin with the easy ones when you can choose they hard ones.
 
 ### Feature List #
