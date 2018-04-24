@@ -1,5 +1,7 @@
 #include "ajh_context.h"
 #import <AppKit/AppKit.h>
+#import <Metal/Metal.h>
+#import <MetalKit/MetalKit.h>
 
 typedef struct ajh_xxx_window
 {
@@ -43,3 +45,8 @@ void ajh_alert(ajh_chp title,ajh_chp text)
         [ alert dealloc ];
     }
 }
+
+// create mtk::view in Objc
+
+// create mtk::view_controller
+
