@@ -24,3 +24,5 @@ Also why begin with the easy ones when you can choose they hard ones.
 0.0.1 Intitial commit and creation of some stuff
 
 0.0.2 Markdown fix.
+
+0.0.3 Add's list
